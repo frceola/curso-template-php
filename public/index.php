@@ -1,18 +1,7 @@
 <?php
 
-    $data = [
-                'name' => 'Fabio',
-                'age'  => '34' 
-            ];
+    session_start();
 
-    ob_start();
+    require '../vendor/autoload.php';
 
-    extract($data);
-
-    require 'home.php';
-
-    $content = ob_get_contents();
-
-    ob_end_clean();
-
-    var_dump($content);
+    routerExecute();
