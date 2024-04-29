@@ -6,6 +6,6 @@
     {
         public function index()
         {
-            var_dump('home');
+            view('home', ['name' => 'Fabio Ceola', 'age' => 34]);
         }
     }
