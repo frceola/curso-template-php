@@ -32,7 +32,7 @@
             <form class="form-login" method="post" action="/login">
                 <div>
                     <label>Usuário:</label>
-                    <input type="text" name="email" placeholder="Ex.: usuarioteste" class="input input-dark">
+                    <input type="text" name="login" placeholder="Ex.: usuarioteste" class="input input-dark">
                 </div>
                 <div id="passwordContainer">
                     <label>Senha:</label>

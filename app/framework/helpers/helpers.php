@@ -39,3 +39,8 @@ use app\framework\classes\Router;
             var_dump($th->getMessage());
         }
     }
+
+    function redirect(string $to)
+    {
+        return header('Location: '.$to);
+    }
